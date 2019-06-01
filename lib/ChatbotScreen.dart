@@ -3,10 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:hackthon/AnswerScreen.dart';
 import 'package:hackthon/main.dart';
-import 'package:googleapis_auth/auth.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart';
-
-const String _name = "Husayn";
 
 typedef void StringCallback(String s);
 
@@ -82,6 +79,7 @@ class ChatScreenState extends State with TickerProviderStateMixin {
   }
 
   void _getBotResponse(String request) async {
+    ask("我想學Flutter");
     var responses = [
       "你有寫過程式嗎",
       "你有學過Flutter嗎？",
@@ -90,7 +88,7 @@ class ChatScreenState extends State with TickerProviderStateMixin {
     ];
     String response = responses[Random().nextInt(4)];
     bool isEnd = response=="你的問題是\"Flutter怎麼做進度條？\"嗎？";
-    List<String> options = isEnd?null:["Option1", "Option2", "Option3"];
+    List<String> options = isEnd?null:["有喔", "沒有ㄟ"];
     addMessage(false, response, options: options, isEnd: isEnd);
   }
 
