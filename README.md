@@ -24,7 +24,7 @@ Flutter-DEVotion
 
 # DEVotion  
 在英語Devotion的字義是「祈禱」、「奉獻」、「忠誠」
-我們取其中「祈禱」 引伸為 『觀落陰』之意 （類似於通靈之意）
+我們取其中「祈禱」 引伸為 『觀落陰』之意 （類似於通靈之意）（BLINDFOLD TAOIST RITUAL ）
 在剛接Flutter的新手，在還不懂如何提問之時，透過工具轉換並整理問題後與社群開發者之間進行交流。
 
 儘管 Flutter Hackathon19  的時間很短，我們的app與服務仍有不足的地方，也希望在未來可以使其更為完善。
@@ -36,7 +36,7 @@ Flutter-DEVotion
 
 
 
-## Documentation
+## Documentation 
 
 flutter-devotion documentation and other information can be found at [flutter-devotion](https://github.com/flutter-devotion).
 
