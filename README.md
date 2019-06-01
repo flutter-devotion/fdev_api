@@ -4,10 +4,8 @@
 
 
 
-[![Build Status](https://travis-ci.org/docker/kitematic.svg?branch=master)](https://travis-ci.org/docker/kitematic)
 
-
-[![Kitematic Logo](https://cloud.githubusercontent.com/assets/251292/5269258/1b229c3c-7a2f-11e4-96f1-e7baf3c86d73.png)](https://kitematic.com)
+[![FDEV Logo](https://github.com/flutter-devotion/fdev_api/blob/master/doc/FDEV-02.png?raw=true)](https://kitematic.com)
 
 
 剛接觸新的語言，連問題都問不出來怎麼辦？
@@ -19,10 +17,23 @@ Just getting in touch with a new language, even if you can't ask questions, what
 Let FDEV help you!
 Counseling newcomers to ask correct and understandable questions
 
-![Kitematic Screenshot](https://cloud.githubusercontent.com/assets/251292/8246120/d3ab271a-15ed-11e5-8736-9a730a27c79a.png)
+
+FEDC
+Flutter-DEVotion 
 
 
-base https://github.com/VictorRancesCode/flutter_dialogflow
+# DEVotion  
+在英語Devotion的字義是「祈禱」、「奉獻」、「忠誠」
+我們取其中「祈禱」 引伸為 『觀落陰』之意 （類似於通靈之意）
+在剛接Flutter的新手，在還不懂如何提問之時，透過工具轉換並整理問題後與社群開發者之間進行交流。
+
+儘管 Flutter Hackathon19  的時間很短，我們的app與服務仍有不足的地方，也希望在未來可以使其更為完善。
+
+
+
+![flutter-devotion  Screenshot](https://github.com/flutter-devotion/fdev_api/blob/master/doc/fdev.gif?raw=true)
+
+
 
 
 ## Documentation
@@ -31,14 +42,14 @@ flutter-devotion documentation and other information can be found at [flutter-de
 
 ## Uninstalling
 
-**Mac**
+<!-- **Mac**
 
 - Remove Kitematic.app
 - Remove any unwanted Virtual Machines in VirtualBox
 ```bash
 # remove app data
 rm -rf ~/Library/Application\ Support/Kitematic
-```
+``` -->
 
 ## Copyright and License
 
