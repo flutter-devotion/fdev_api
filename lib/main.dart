@@ -3,18 +3,6 @@ import 'package:material_search/material_search.dart';
 
 import 'ChatbotScreen.dart';
 
-const _list = const [
-  'Igor Minar',
-  'Brad Green',
-  'Dave Geddes',
-  'Naomi Black',
-  'Greg Weber',
-  'Dean Sofer',
-  'Wes Alvaro',
-  'John Scott',
-  'Daniel Nadasi',
-];
-
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -32,7 +20,10 @@ class QuestionListScreen extends StatefulWidget {
     Question("How to do a dart flutter firebase query join [duplicate]", "I have a firestore table of users, and another firestore table of blogs which has uid on each document. I would like to do join query in flutter by joining the two tables by their uid. I can't find a ... ", ["flutter", "flutter-layout"]),
     Question("Flutter: Expanded vs Flexible", "I've used both Expanded and Flexible widgets and they seem to work same. Is there any difference between the two that I missed? ", ["dart", "flutter"]),
     Question("Can't pass data from home to results_page by Navigator.push() method", "There is a problem with this flutter app, and I cant find the solution as there is no error. what happens is when it navigates from home to the result page, the calculations doesn't happen or the ... ", ["tag1", "tag2", "tag3"]),
-    Question("Question 5", "Content 1", ["tag1", "tag2", "tag3"]),
+    Question("Flutter Spacer vs Expanded", "What is the difference between Expanded and Spacer in Flutter? Why Flutter team added Spacer when we already have Expanded? ", ["flutter", "dart"]),
+    Question("How to do a dart flutter firebase query join [duplicate]", "I have a firestore table of users, and another firestore table of blogs which has uid on each document. I would like to do join query in flutter by joining the two tables by their uid. I can't find a ... ", ["flutter", "flutter-layout"]),
+    Question("Flutter: Expanded vs Flexible", "I've used both Expanded and Flexible widgets and they seem to work same. Is there any difference between the two that I missed? ", ["dart", "flutter"]),
+    Question("Can't pass data from home to results_page by Navigator.push() method", "There is a problem with this flutter app, and I cant find the solution as there is no error. what happens is when it navigates from home to the result page, the calculations doesn't happen or the ... ", ["tag1", "tag2", "tag3"]),
   ];
 
   @override
@@ -67,7 +58,7 @@ class _QuestionListScreenState extends State<QuestionListScreen> {
                 padding: EdgeInsets.all(32),
                 alignment: Alignment.center,
                 child: Text(
-                  "Didn't find similar question.\nDo you want FDEV help you elaborate your question?",
+                  "找不到相似的問題，\n可能是您的問題太爛了，\n讓FDEV來教你怎麼問問題吧！",
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
               ),

@@ -16,12 +16,11 @@ class AnswerScreen extends StatelessWidget {
           child: Image.asset("assets/logo.png"),
         ),
       ),
-      body: Column(children: <Widget>[
+      body: ListView(children: <Widget>[
         _buildQuestion(question),
         _buildAnswer(answer),
         _buildInput(),
       ]),
-      resizeToAvoidBottomPadding: false,
     );
   }
 
